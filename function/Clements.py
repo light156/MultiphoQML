@@ -2,6 +2,8 @@ import numpy as np
 import torch
 import scipy as sp
 import random
+import os
+import time
 
 
 def calc_unitary(mode_num, modes_list, theta_list, phi_list):
@@ -208,6 +210,22 @@ def random_unitary(N, real=False):
     U = np.multiply(q, ph, q)
     return U
 
+
+def get_folder(dir, prefix=None, suffix=None):
+
+    folder = time.strftime('%m%d_%H%M%S', time.localtime(time.time()))
+    if prefix is not None:
+        folder = prefix+'_'+folder
+
+    if suffix is not None:
+        folder = folder+'_'+suffix
+    
+    folder = os.path.join(dir, folder)
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+        os.makedirs(folder+'/weights')
+        
+    return folder
 
 
 if __name__ == '__main__':
