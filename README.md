@@ -3,7 +3,7 @@ This repository contains all data and code required to reproduce the results in 
 ## Repository Structure
 
 - **experimental_raw_data/**: Contains all raw experimental data generated in physical experiments of this study.
-- 
+
 - **function/**: Code for simulating multiple photons propagating in Mach-Zehnder interferometers (MZIs), including boson sampling, unitary decomposition and calculation, and related quantum functions. 
 - **hessian/**: Code for computing gradients and Hessian matrices of linear parametrized quantum optical circuits.
 
