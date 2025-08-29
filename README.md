@@ -1,5 +1,6 @@
 This repository contains all data and code required to reproduce the results in the paper **"Multiple photons enhance data efficiency in quantum machine learning"**.
 
+
 ## Repository Structure
 
 - **experimental_raw_data/**: Contains all raw experimental data generated in physical experiments of this study.
@@ -11,8 +12,9 @@ This repository contains all data and code required to reproduce the results in 
 
 - **fig2/**, **fig3/**, **fig4/**: Code for reproducing all figures in the main text and supplementary information.
 
-## Usage
 
+## Usage
+   ```
    git clone https://github.com/light156/MultiphoQML.git
    cd MultiphoQML
    ```
