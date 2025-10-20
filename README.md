@@ -1,4 +1,4 @@
-This repository contains all data and code required to reproduce the results in the paper **"Multiple photons enhance data efficiency in quantum machine learning"**.
+This repository contains all data and code required to reproduce the results in the paper **"A scalable advantage in multi-photon quantum machine learning"**.
 
 
 ## Repository Structure
